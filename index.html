@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Usal_USARB</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url(http://orar.usarb.md/img/new_background_1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-bottom: 50px;
+        }
+        
+        .uni-name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #fff;
+        }
+        
+        .calendar {
+            width: 100%;
+            margin-top: 30px;
+        }
+        
+        .calendar td {
+            padding: 5px 10px;
+            background: #fff;
+            border: 1px solid #000;
+            text-align: center;
+        }
+        
+        .orar-table {
+            background: #fff;
+            width: 100%;
+            margin-top: 20px;
+        }
+        
+        .orar-table tr td:first-child {
+            background: #008a09;
+            color: #fff;
+        }
+        
+        .orar-table td {
+            text-align: center;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="alert alert-info text-center">
+                    Orarul Cursurilor
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <button class="btn w-100 btn-primary">Grupe</button>
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn w-100 btn-primary">Profesori</button>
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn w-100 btn-primary">Aule</button>
+                    </div>
+                </div>
+                <div class="input-group mt-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">🔎</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="mt-3">
+                    <select class="form-control" name="" multiple>
+                    <option value="1">IS11Z</option>
+                    <option value="2">BA11Z</option>
+                    <option value="3">IT11Z</option>
+                </select>
+                </div>
+                <div class="mt-3">
+                    <select class="form-control" name="">
+                    <option value="1">Luni</option>
+                    <option value="2">Marti</option>
+                    <option value="3">Miercuri</option>
+                </select>
+                </div>
+                <div class="mt-3">
+                    <select class="form-control" name="">
+                    <option value="1">13 (22.11.2021-28.11.2021)</option>
+                    <option value="2">14 (31.11.2021-06.12.2021)</option>
+                    <option value="3">15 (07.12.2021-14.12.2021)</option>
+                </select>
+                </div>
+                <div class="mt-3">
+                    <select class="form-control" name="">
+                    <option value="1">Semestru</option>
+                    <option value="2">1</option>
+                    <option value="3">2</option>
+                </select>
+                </div>
+                <table class="calendar">
+                    <tr>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>L</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>M</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>M</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>J</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>V</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>S</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>D</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-8">
+                <div class="text-center">
+                    <img src="http://orar.usarb.md/img/logo_usarb_new.png" alt="Logo universitatii" width="130px">
+                    <br>
+                    <p class="uni-name">UNIVERSITATEA DE STAT „ALECU RUSSO” DIN BĂLȚI</p>
+                </div>
+                <div class="px-3">
+                    <table class="orar-table">
+                        <tr>
+                            <td>8:00<br>9:30</td>
+                            <td>
+                                <div class="simple"><strong>Teoria muzicii I</strong>
+                                    <p> Laborator (Sb. 2)</p>
+                                    <p> prof. Popovici V.</p><strong> aud. 843</strong></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>9:45<br>11:15</td>
+                            <td>
+                                <div class="simple"><strong> Matematica</strong>
+                                    <p> Laborator</p>
+                                    <p> prof. Crudu V.</p><strong> aud. 383</strong></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>11:30<br>13:00</td>
+                            <td>
+                                <div class="simple"><strong> Limba și literatura română</strong>
+                                    <p> Laborator</p>
+                                    <p> asist. univ.V. Botnariuc</p><strong> aud. 383</strong></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>13:15<br>14:45</td>
+                            <td>
+                                <div class="simple"><strong> Limba engleză I</strong>
+                                    <p> Laborator</p>
+                                    <p> lect. sup. univ.E. Varzari</p><strong> aud. 421 </strong></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>15:00<br>16:30</td>
+
+                            <td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>16:45<br>18:15</td>
+                            <td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>18:30<br>20:00</td>
+                            <td>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<!-- https://www.codecademy.com/learn/learn-bootstrap?g_network=g&g_device=c&g_adid=525783087836&g_keyword=how%20to%20use%20bootstrap&g_acctid=243-039-7011&g_adtype=search&g_campaign=ROW+Language%3A+Pro+-+Exact&g_keywordid=kwd-358759493235&g_campaignid=10074200768&g_adgroupid=102650143873&utm_id=t_kwd-358759493235:ag_102650143873:cp_10074200768:n_g:d_c&utm_term=how%20to%20use%20bootstrap&utm_campaign=ROW%20Language%3A%20Pro%20-%20Exact&utm_source=google&utm_medium=paid-search&utm_content=525783087836&hsa_acc=2430397011&hsa_cam=10074200768&hsa_grp=102650143873&hsa_ad=525783087836&hsa_src=g&hsa_tgt=kwd-358759493235&hsa_kw=how%20to%20use%20bootstrap&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAiAnO2MBhApEiwA8q0HYWpwEItHdh46xCpx9w9aX4i3a19-gPu-3ePU9cXHnQReE6Mh2uLTuxoCM_cQAvD_BwE
+https://www.youtube.com/watch?v=nvGXLsuaGmE
+https://www.youtube.com/watch?v=TZSY6rDUDrE&t=9s
+https://getbootstrap.com/
+https://www.youtube.com/watch?v=-A5LxeKi3Aw-->
